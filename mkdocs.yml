@@ -1,30 +1,33 @@
 site_name: OliDox
 site_url: https://iwantlotsofcookies.github.io/OliDox/
 theme: 
+  name: material
   font:
     text: Inconsolata
     #text: roberto
 
   palette:
-    #primary: indigo
-    #accent: indigo
-    # Palette toggle for light mode
-    - scheme: default
+        # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: white
+      scheme: white
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      primary: black
+      scheme: slate
       toggle:
-          icon: material/brightness-4
-          name: Switch to light mode
+        icon: material/brightness-4
+        name: Switch to light mode
 
   features:
     - navigation.sections
     #- navigation.expand
     #- navigation.tracking
-    #- navigation.tabs
+    - navigation.tabs
     - navigation.indexes
     #- navigation.path
     #- toc.follow
@@ -35,8 +38,24 @@ theme:
   plugins:
     - search
     - optimize
+    - git-authors
 
-  name: material
+      
+
+
+repo_url: https://github.com/iwantlotsofcookies/olidox
+repo_name: iwantlotsofcookies/OliDox
+
+
 
 extra_css:
- - stylesheets/extra.css
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
