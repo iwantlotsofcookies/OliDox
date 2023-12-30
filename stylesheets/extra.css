@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Cairo Play";
+  src: "https://fonts.googleapis.com/css2?family=Cairo+Play:wght@800&display=swap";
+}
+
+.md-ellipsis, .md-nav__title {
+
+    --md-text-font: "Cairo Play";
+
+  }
+
+h1 {
+
+  --md-text-font: "Cairo Play";
+
+}
