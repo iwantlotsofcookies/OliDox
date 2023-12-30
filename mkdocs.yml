@@ -1,0 +1,30 @@
+site_name: OliDox
+site_url: https://example.com/
+theme: 
+  font:
+    text: Inconsolata
+    #text: roberto
+
+  palette:
+    primary: white
+    accent: indigo
+  features:
+    - navigation.sections
+    #- navigation.expand
+    #- navigation.tracking
+    #- navigation.tabs
+    #- navigation.indexes
+    #- navigation.path
+    #- toc.follow
+    - toc.integrate
+    - search.suggest
+    #- search.highlight
+
+  plugins:
+    - search
+    - optimize
+
+  name: material
+
+extra_css:
+ - stylesheets/extra.css
