@@ -1,19 +1,31 @@
 site_name: OliDox
-site_url: https://example.com/
+site_url: https://iwantlotsofcookies.github.io/OliDox/
 theme: 
   font:
     text: Inconsolata
     #text: roberto
 
   palette:
-    primary: white
-    accent: indigo
+    #primary: indigo
+    #accent: indigo
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+
   features:
     - navigation.sections
     #- navigation.expand
     #- navigation.tracking
     #- navigation.tabs
-    #- navigation.indexes
+    - navigation.indexes
     #- navigation.path
     #- toc.follow
     - toc.integrate
