@@ -1,0 +1,11 @@
+# 1.4 Data types, data structure and algorithms
+## *1.4.1 Data Types*
+
+### Normalisation
+
+- Binary equivalent of denary standard form
+- Move the decimal point until the first two numbers are either
+    - 01
+    - 10
+- Then update the exponent to reflect the number of places the decimal point has moved!
+    
