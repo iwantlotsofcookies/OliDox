@@ -1,0 +1,30 @@
+# 1.4 Data types, data structure and algorithms
+## *1.4.1 Data Types*
+
+### Normalisation
+
+- Binary equivalent of denary standard form
+- Move the decimal point until the first two numbers are either
+    - 01
+    - 10
+- Then update the exponent to reflect the number of places the decimal point has moved!
+    
+## *1.4.2 Data Structures*
+
+- Static data structures have a fixed size
+- Dynamic data structures can change size
+
+### Linked-list
+
+- Dynamic
+- Holds an ordered sequence
+- Items don't need to be in contiguous data locations
+
+> Linked lists can be traversed by following each item's next pointer until the end of the list
+
+#### Structure
+
+- Nodes hold:
+    - Data field
+    - Index
+    - Pointer
